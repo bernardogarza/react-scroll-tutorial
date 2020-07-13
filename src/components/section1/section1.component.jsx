@@ -3,11 +3,16 @@ import styled from 'styled-components';
 
 import Wrapper from '../wrapper/wrapper.component';
 
-const Section1Styled = styled.div`background-color: red;`;
+const Section1Styled = styled.div`
+  background-color: darkviolet;
+  .active {
+    border-bottom: 1px solid white;
+  }
+`;
 
 export default function Section1() {
   return (
-    <Section1Styled>
+    <Section1Styled id="section1">
       <Wrapper>
         <h1>Section 1</h1>
         <p>
