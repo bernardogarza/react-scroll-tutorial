@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-scroll-tutorial/static/css/main.b6a2c13f.chunk.css",
+    "main.js": "/react-scroll-tutorial/static/js/main.13f8cbba.chunk.js",
+    "main.js.map": "/react-scroll-tutorial/static/js/main.13f8cbba.chunk.js.map",
+    "runtime-main.js": "/react-scroll-tutorial/static/js/runtime-main.d058c93a.js",
+    "runtime-main.js.map": "/react-scroll-tutorial/static/js/runtime-main.d058c93a.js.map",
+    "static/js/2.3b059db5.chunk.js": "/react-scroll-tutorial/static/js/2.3b059db5.chunk.js",
+    "static/js/2.3b059db5.chunk.js.map": "/react-scroll-tutorial/static/js/2.3b059db5.chunk.js.map",
+    "index.html": "/react-scroll-tutorial/index.html",
+    "precache-manifest.1908be002cbf578cac7047a67e4266ea.js": "/react-scroll-tutorial/precache-manifest.1908be002cbf578cac7047a67e4266ea.js",
+    "service-worker.js": "/react-scroll-tutorial/service-worker.js",
+    "static/css/main.b6a2c13f.chunk.css.map": "/react-scroll-tutorial/static/css/main.b6a2c13f.chunk.css.map",
+    "static/js/2.3b059db5.chunk.js.LICENSE.txt": "/react-scroll-tutorial/static/js/2.3b059db5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d058c93a.js",
+    "static/js/2.3b059db5.chunk.js",
+    "static/css/main.b6a2c13f.chunk.css",
+    "static/js/main.13f8cbba.chunk.js"
+  ]
+}
