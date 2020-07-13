@@ -7,7 +7,7 @@ const Section3Styled = styled.div`background-color: gray;`;
 
 export default function Section3() {
   return (
-    <Section3Styled>
+    <Section3Styled id="section3">
       <Wrapper>
         <h1>Section 3</h1>
         <p>

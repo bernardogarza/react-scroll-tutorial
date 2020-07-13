@@ -7,7 +7,7 @@ const Section2Styled = styled.div`background-color: #008000;`;
 
 export default function Section2() {
   return (
-    <Section2Styled>
+    <Section2Styled id="section2">
       <Wrapper>
         <h1>Section 2</h1>
         <p>
