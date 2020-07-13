@@ -2,13 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { Link } from 'react-scroll';
+import OnScreenScrolling from '../on-screen-scrolling/on-screen-scrolling.component';
+import Wrapper from '../wrapper/wrapper.component';
 
 const NavbarStyled = styled.div`
-  background: black;
   font-size: 24px;
   position: fixed;
   width: 100%;
-  div {
+  .header {
+    background: black;
     padding: 40px;
     display: flex;
     justify-content: space-around;
@@ -21,12 +23,16 @@ const NavbarStyled = styled.div`
       border-bottom: 1px solid white;
     }
   }
+  .scrolling-buttons {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export default function Navbar() {
   return (
     <NavbarStyled>
-      <div>
+      <div className="header">
         <Link activeClass="active" to="section1" spy={true} smooth={true} duration={1000}>
           Section 1
         </Link>
@@ -36,6 +42,11 @@ export default function Navbar() {
         <Link activeClass="active" to="section3" spy={true} smooth={true} duration={1000}>
           Section 3
         </Link>
+      </div>
+      <div className="scrolling-buttons">
+        <Wrapper>
+          <OnScreenScrolling />
+        </Wrapper>
       </div>
     </NavbarStyled>
   );
