@@ -3,12 +3,7 @@ import styled from 'styled-components';
 
 import Wrapper from '../wrapper/wrapper.component';
 
-const Section1Styled = styled.div`
-  background-color: darkviolet;
-  .active {
-    border-bottom: 1px solid white;
-  }
-`;
+const Section1Styled = styled.div`background-color: darkviolet;`;
 
 export default function Section1() {
   return (

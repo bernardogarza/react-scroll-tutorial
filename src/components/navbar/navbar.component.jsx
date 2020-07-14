@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Link } from 'react-scroll';
 import OnScreenScrolling from '../on-screen-scrolling/on-screen-scrolling.component';
 import Wrapper from '../wrapper/wrapper.component';
 
@@ -33,15 +32,9 @@ export default function Navbar() {
   return (
     <NavbarStyled>
       <div className="header">
-        <Link activeClass="active" to="section1" spy={true} smooth={true} duration={1000}>
-          Section 1
-        </Link>
-        <Link activeClass="active" to="section2" spy={true} smooth={true} duration={1000}>
-          Section 2
-        </Link>
-        <Link activeClass="active" to="section3" spy={true} smooth={true} duration={1000}>
-          Section 3
-        </Link>
+        <a href="#section1">Section 1</a>
+        <a href="#section2">Section 2</a>
+        <a href="#section3">Section 3</a>
       </div>
       <div className="scrolling-buttons">
         <Wrapper>
