@@ -5,7 +5,6 @@ I built this project as a complement to an article I wrote about using react-scr
 
 - [`react-scroll`](https://www.npmjs.com/package/react-scroll)
 - [`styled-components`](https://www.npmjs.com/package/styled-components)
-- [`gh-pages`](https://www.npmjs.com/package/gh-pages)
 
 
 ## Author
