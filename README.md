@@ -1,5 +1,5 @@
 # `react-scroll` Tutorial
-I built this project as a complement to an article I wrote about using react-scroll to have smooth scrolling in your projects.
+I built this project as a complement to an **[article](https://hackernoon.com/how-to-make-a-silky-smooth-scroll-in-react-5dj3xdl)** I wrote about using react-scroll to have smooth scrolling in your projects.
 
 **NPM packages used on this project:**
 
@@ -14,6 +14,10 @@ I built this project as a complement to an article I wrote about using react-scr
 ## Live Demo
 
 > https://bernardogarza.github.io/react-scroll-tutorial/
+
+## Artcile
+
+> https://hackernoon.com/how-to-make-a-silky-smooth-scroll-in-react-5dj3xdl
 
 ## Screenshot
 
