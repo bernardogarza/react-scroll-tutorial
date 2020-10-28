@@ -15,7 +15,7 @@ I built this project as a complement to an **[article](https://hackernoon.com/ho
 
 > https://bernardogarza.github.io/react-scroll-tutorial/
 
-## Artcile
+## Article
 
 > https://hackernoon.com/how-to-make-a-silky-smooth-scroll-in-react-5dj3xdl
 
